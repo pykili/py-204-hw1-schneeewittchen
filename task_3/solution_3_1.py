@@ -1,5 +1,6 @@
-teststring=str(input())
-symbols='абвгдеёжзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyz0123456789 ,.!?'
-for letter in symbols:
-    if letter in teststring:
-        print(letter, end='') 
+user_input = input()
+alphabet = ''
+for letter in user_input :
+    if letter not in alphabet :
+      alphabet = alphabet + letter
+print(alphabet)
