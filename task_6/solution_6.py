@@ -1,6 +1,6 @@
-n=int(input())
+n = int(input())
+step = 0
 for i in range (0, n):
-    a= ' '*i+' _'
-    b= ' '*(i+2)+'|'
-    print(a)
-    print(b)
+  while step < n :
+    step = step + 1
+    print(str(n)*step)
