@@ -1,4 +1,4 @@
-teststring=str(input())
+teststring=input()
 a=''
 for x in teststring:
     a= x+a
